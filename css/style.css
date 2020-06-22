@@ -1,0 +1,499 @@
+*{
+    padding: 0;
+    margin: 0;
+   outline: 0;
+}
+ol,ul{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    
+}
+h1,h2,h3,h4,h5,h6,p{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+header{
+    background-color:#0872b9;
+    padding-top:10px;
+}
+.welcome p{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+/*    margin-top: 7px;*/
+}
+.icon ul{
+    float: right;
+}
+.icon ul li{
+    float: left;
+    padding: 0px 20px;
+}
+.icon ul li a{
+    color:#fff;
+    transition: all linear .3s;
+}
+.icon ul li a:hover{
+    color:#000;
+    transition: all linear .3s;
+}
+/*menu part css start*/
+.navbar-nav .nav-item .nav-link{
+    color:#353535;
+}
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item .nav-link:hover{
+    color:#a4c0de;
+}
+
+/*menu part css end*/
+/*banner part css start*/
+#banner{
+    background:url(../images/banner.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+    
+}
+.banner_overlay{
+    padding: 87px 0px;
+    background-color:rgba(0, 0, 0, 0.47);
+    
+}
+.banner_con{
+    color:#fff;
+    text-align:right;
+}
+.banner_con h4{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    
+}
+.banner_con h1{
+     font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 13px 0 28px;
+}
+.banner_con p{
+     font-size: 13px;
+     font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-bottom: 29px;
+    line-height: 24px;
+}
+.banner_con a{
+    padding: 10px 27px;
+    margin-left: 10px;
+    color:#fff;
+    border:1px solid#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    transition: all linear .6s;
+}
+.banner_con a:hover{
+    color: white;
+    background: #0872b9;
+    border:1px solid#0872b9;
+    transition: all linear .7s;
+}
+/*banner part css end*/
+/*=======================*/
+/* about part css start*/
+/*=======================*/
+.about_head h4{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    text-align:center;
+    text-transform: uppercase;
+    margin-top: 61px;
+    position:relative;
+    margin-bottom: 40px;
+}
+.about_head h4:after{
+    position:absolute;
+    content: '';
+    bottom:-3px;
+    left: 45.5%;
+    height:3px;
+    width: 47px;
+    background-color: #0872b9;
+  
+    
+}
+.about_head h4:before{
+    position:absolute;
+    content: '';
+    bottom:-3px;
+    left: 50%;
+    height:3px;
+    width: 10px;
+    background-color: #0872b9;
+}
+.about_head h4 span:after{
+    position:absolute;
+    content: '';
+    bottom:-3px;
+    left: 51.2%;
+    height:3px;
+    width: 7px;
+    background-color: #0872b9;
+}
+.about_head h4 span:before{
+    position:absolute;
+    content: '';
+    bottom:-3px;
+    left: 52.1%;
+    height:3px;
+    width: 4px;
+    background-color: #0872b9;
+}
+.about_head h4 span:last-child:after{
+    position:absolute;
+    content: '';
+    bottom:-3px;
+    left: 53%;
+    height:3px;
+    width: 2px;
+    background-color: #0872b9;
+}
+
+.about_con p{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    padding-top: 40px;
+    line-height: 25px;
+    text-align:justify;
+}
+
+/*=======================*/
+/* about part css end*/
+/*=======================*/
+
+/*=======================*/
+/* service part css start*/
+/*=======================*/
+.ser_icon_main{
+    height: 80px;
+    width:80px;
+    background-color: #f1f1f1;
+    border-radius:50%;
+    border: 3px solid#fff;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 0%;
+    left: 50%;
+    transition: .3s;
+}
+.ser_icon{
+    height:70px;
+    width:70px;
+    border: 2px solid#fff;
+    border-radius:50%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+   transition: .3s;
+}
+.ser_con{
+    background-color:#f1f1f1;
+    text-align: center;
+    padding: 50px 22px 22px;
+    transition: .3s;
+}
+.ser_con h4{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-bottom: 18px;
+}
+.ser_con p{
+     font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #555555;
+    transition: .3s;
+   
+}
+.ser_main:hover .ser_icon_main{
+    background-color: #5bc5f4;
+    transition: .3s;
+}
+.ser_main:hover .ser_con{
+    box-shadow: 0 0 5px black;
+    transition: .3s;
+}
+.ser_head{
+    margin-bottom: 84px;
+}
+
+
+/*=======================*/
+/* service part css end*/
+/*=======================*/
+/*=======================*/
+/* portfolio part css start*/
+/*=======================*/
+
+.sm_img{
+    margin-bottom: 15px;
+    position: relative;
+    
+}
+
+.gly_overlay{
+    position:absolute;
+    top:0;
+    left: 0;
+    height:100%;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    transition: all linear .3s;
+}
+.sm_img:hover .gly_overlay{
+    transform: scale(1);
+     transition: all linear .3s;
+
+}
+
+.big_img{
+    position: relative;
+}
+.big_img:hover .gly_overlay{
+    transform: scale(1);
+}
+.gly_overlay a{
+    height: 40px;
+    width:40px;
+    background-color: #5bc5f4;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+
+/*=======================*/
+/* portfolio part css end*/
+/*=======================*/
+/*=======================*/
+/* team part css start*/
+/*=======================*/
+
+.team_img{
+    position: relative;
+}
+.team_overlay{
+    position:absolute;
+    top: 0;
+    right: 0;
+    height:100%;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.58);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transform:scale(0);
+     transition: all linear .3s;
+}
+.team_overlay ul li{
+    padding: 13px;
+}
+.team_overlay ul{
+    margin-top: 30px;
+}
+.team_overlay ul li a{
+    width:40px;
+    height:40px;
+    border:2px solid #fff;
+    border-radius:50%;
+    display: block;
+    text-align:center;
+    line-height:40px;
+    color:#fff;
+    transition: all linear .3s;
+    
+   
+}
+.team_overlay ul li a:hover{
+    background-color: #5bc5f4;
+    border: 2px solid#5bc5f4;
+     transition: all linear .3s;
+}
+.team_con h4{
+     font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: #353535;
+    margin-top: 10px;
+/*    font-size: 16px;*/
+    text-transform: uppercase;
+    text-align:center;
+     transition: all linear .3s;
+}
+
+.team_con p{
+     font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: #555555;
+    margin-top: 10px;
+    font-size: 21px;
+    text-transform: capitalize;
+    text-align:center;
+}
+.team_main:hover .team_overlay{
+    transform:scale(1);
+    transition: all linear .3s;
+}
+.team_main:hover .team_con h4{
+    color: #5bc5f4;
+     transition: all linear .3s;
+}
+
+
+
+/*=======================*/
+/* team part css end*/
+/*=======================*/
+/*=======================*/
+/* testimonial part css start*/
+/*=======================*/
+.test_img{
+    text-align: center;
+    margin-bottom: 45px;
+}
+.test_piramid{
+    height:40px;
+    width:40px;
+    background-color: #f1f1f1;
+    position:absolute;
+    transform:translate(-50%, -50%);
+    top:35%;
+    left:47%;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+.test_con{
+    background: #f1f1f1;
+    text-align: center;
+    padding: 24px;
+   
+}
+
+.test_con span{
+    color: #5bc5f4;
+}
+.test_con h4{
+      font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #494949;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+   
+}
+.test_con h6{
+      font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555555;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+   
+}.test_con p{
+      font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #55555;
+   
+   
+}
+.testimonial{
+    padding-bottom: 60px;
+}
+
+/*=======================*/
+/* testimonial part css end*/
+/*=======================*/
+/*=======================*/
+/* footer part css start*/
+/*=======================*/
+footer{
+    background-color: black;
+    padding: 25px 40px;
+    color: #fff;
+}
+.f_content p{
+   padding-top: 36px;
+    font-size:13px;
+    color:#fff;
+    font-family: 'Oswald', sans-serif;
+}
+.f_contact h4{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 34px 0;
+}
+.f_icon i{
+    color: #fff;
+    width:40px;
+    height: 40px;
+    border: 2px solid #5bc5f4;
+    border-radius:50%;
+    text-align: center;
+    line-height: 40px;
+     margin-bottom: 14px;
+    background-color: #5bc5f4;
+}
+.f_linl ul li{
+    cursor: pointer;
+    padding: 7px 0;
+}
+.f_linl ul li a{
+    text-decoration:none;
+    color: #fff;
+}
+.f_linl ul li a:hover{
+    color: #5bc5f4;
+}
+.flickr_img img{
+    padding: 10px;
+}
+.footer_last{
+    height: 44px;
+    width: 100%;
+    background-color:#555555;
+   
+}
+.f_last_con{
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+  
+}
+/*=======================*/
+/* footer part css end*/
+/*=======================*/
